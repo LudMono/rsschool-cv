@@ -181,5 +181,11 @@
 
 ***
 
+ ## Languages
+
+ - English - **A2**
+ - Russian - **Native**
+
+***
   </div>
 </div>
