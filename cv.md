@@ -62,6 +62,8 @@
 
   **GitHub** - [LudMono](https://github.com/LudMono)
 
+  **RS School Discord** - @ludmono
+
   * * *
 
   ## Skills
