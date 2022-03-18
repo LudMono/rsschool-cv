@@ -25,7 +25,9 @@
   }
 
   .main {
+    padding: 10px;
     width: 610px;
+    background: #E5E5E5;
   }
 
 
@@ -44,7 +46,7 @@
 
   # Vladislav Tokarskii
  </div>
- 
+
   <div class="tc">
 
   **Junior Frontend Developer**
@@ -134,6 +136,14 @@
 
   <div class="main">
 
-  # Rule 2
+  ## About Me
+
+  First of all, I want to become a professional frontend developer and build a career in a big company.
+
+  I make it my goal to create a software with the user in mind, creating applications with useable and intuitive user interface experience.
+
+  ***
+
+
   </div>
 </div>
