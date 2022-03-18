@@ -170,5 +170,16 @@
 
  ***
 
+ ## Courses
+
+ - [**RS School**](https://rs.school/)
+ - [Udemy](https://www.udemy.com/course/fundamental-javascript/)
+ - [CS 50](https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
+ - [learn.javascript.ru](https://learn.javascript.ru/)
+ - [htmlacademy](https://htmlacademy.ru/)
+ - [React Docs](https://ru.reactjs.org/docs/getting-started.html)
+
+***
+
   </div>
 </div>
