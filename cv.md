@@ -189,5 +189,15 @@
  - Russian - **Native**
 
 ***
+
+## Projects
+
+- [Drum Kit](https://ludmono.github.io/js30/01%20-%20JavaScript%20Drum%20Kit/)
+- [Clocks](https://ludmono.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/)
+- [CSS Variables](https://ludmono.github.io/js30/03%20-%20CSS%20Variables/)
+- [Arrray Cardio Day](https://ludmono.github.io/js30/04%20-%20Array%20Cardio%20Day%201/)
+- [Flex Panel Gallery](https://ludmono.github.io/js30/05%20-%20Flex%20Panel%20Gallery/)
+
+***
   </div>
 </div>
