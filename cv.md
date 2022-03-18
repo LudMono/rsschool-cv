@@ -144,6 +144,31 @@
 
   ***
 
+  ## Code example
+
+
+  ```
+  const numberOfPairs = (gloves) => {
+  let result = 0;
+  const countedGloves = gloves.reduce((obj, glove) => {
+    if (!obj[glove]) {
+      obj[glove] = 0;
+    }
+
+    obj[glove]++;
+    return obj;
+  }, {});
+
+  for (let glove in countedGloves) {
+    result += Math.floor(countedGloves[glove] / 2);
+  }
+
+  return result;
+};
+  ```
+ **Code wars - Pair of gloves**
+
+ ***
 
   </div>
 </div>
