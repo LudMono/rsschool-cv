@@ -24,9 +24,9 @@
       <button class="button" id="toggler">
         <span class="material-icons"> help </span>
       </button>
-      <div class="header__drawer" id="drawer">
-      </div>
+      <div class="header__drawer" id="drawer"></div>
     </header>
+
     <main class="main container">
       <aside class="main__aside">
         <div class="aside" id="aside">
@@ -177,7 +177,7 @@
       <section class="main__content content">
         <div class="content__hero" id="hero">
           <div class="hero">
-            <div class="hero__wrapper bgwhite">
+            <div class="hero__wrapper bg-secondary">
               <div class="hero__text">
                 <h1 class="hero__heading">
                   I’m Vladislav Tokarskii
@@ -192,12 +192,18 @@
                   creating applications with useable and intuitive user
                   interface experience.
                 </p>
-                <button class="button button--primary" type="button">
+                <a
+                  class="button button--primary"
+                  href="https://t.me/tokarskyy"
+                  target="_blank"
+                >
                   Contact
-                </button>
+                </a>
               </div>
 
-              <div class="hero__img"></div>
+              <div class="hero__img">
+                <img src="img/coding-img.svg" alt="Coding" />
+              </div>
             </div>
           </div>
         </div>
@@ -206,7 +212,7 @@
           <div class="education">
             <h3 class="education__heading h3">Education</h3>
 
-            <div class="education__wrapper bgwhite">
+            <div class="education__wrapper bg-secondary">
               <ul class="education__list">
                 <li class="education__item">
                   <p>
@@ -265,9 +271,7 @@
             <h3 class="code-example__heading h3">Code Example</h3>
             <div class="code-example__wrapper bgprimary">
               <div class="code-example__code">
-                <code>
-                  <pre>
-<div>
+                <pre>
   const numberOfPairs = (gloves) => {
     let result = 0;
     const countedGloves = gloves.reduce((obj, glove) => {
@@ -285,9 +289,8 @@
 
     return result;
   };
-</div>
-                  </pre>
-                </code>
+</pre
+                >
               </div>
 
               <h4 class="code-example__sub-heading h4">
@@ -301,7 +304,7 @@
           <div class="projects">
             <h3 class="projects__heading h3">Projects</h3>
 
-            <div class="projects__wrapper bgwhite">
+            <div class="projects__wrapper bg-secondary">
               <ul class="projects__list">
                 <li class="projects__item">
                   <div>
@@ -396,6 +399,26 @@
         </nav>
       </div>
     </main>
+
+    <footer class="footer container">
+      <div class="footer__links">
+        <div class="footer-links">
+          <ul class="footer-links__list">
+            <li class="footer-links__item">
+              <a target="_blank" href="https://github.com/LudMono">
+                <img src="img/github.svg" alt="Github icon" />
+              </a>
+            </li>
+            <li class="footer-links__item">
+              <a target="_blank" href="https://rs.school/js/">
+                <img src="img/rs_school_js.svg" alt="RS school icon" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__text">© 2022</p>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
