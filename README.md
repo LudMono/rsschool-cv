@@ -1,1 +1,1 @@
-https://ludmono.github.io/rsschool-cv/cv
+https://ludmono.github.io/rsschool-cv/
