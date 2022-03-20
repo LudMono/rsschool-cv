@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header container" id="header">
+      <button class="button" id="toggler">
+        <span class="material-icons"> help </span>
+      </button>
+      <div class="header__drawer" id="drawer">
+      </div>
+    </header>
+    <main class="main container">
+      <aside class="main__aside">
+        <div class="aside" id="aside">
+          <div class="aside__profile">
+            <div class="profile">
+              <div class="profile__wrapper">
+                <div class="profile__img">
+                  <img src="img/avatar.png" alt="Vladislav Tokarskii" />
+                </div>
+
+                <h2 class="profile__heading">Vladislav Tokarskii</h2>
+                <h4 class="profile__sub-heading">Font-end Developer</h4>
+
+                <div class="profile__social-links">
+                  <div class="social-links">
+                    <ul class="social-links__list">
+                      <li class="social-links__item">
+                        <a target="_blank" href="https://t.me/tokarskyy">
+                          <span class="material-icons"> telegram </span>
+                        </a>
+                      </li>
+
+                      <li class="social-links__item">
+                        <a target="_blank" href="https://github.com/LudMono">
+                          <span class="material-icons"> code </span>
+                        </a>
+                      </li>
+
+                      <li class="social-links__item">
+                        <a target="_blank" href="mailto:red5.dalv@gmail.com">
+                          <span class="material-icons"> email </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="aside__misc-info">
+            <div class="misc-info">
+              <ul class="misc-info__list">
+                <li class="misc-info__item">
+                  <span>Age:</span>
+                  <span>26</span>
+                </li>
+
+                <li class="misc-info__item">
+                  <span>Residence:</span>
+                  <span>RU</span>
+                </li>
+
+                <li class="misc-info__item">
+                  <span>Freelance:</span>
+                  <span>Available</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="aside__skills">
+            <div class="skills">
+              <h4 class="skills__heading h4">Skills</h4>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <div>
+                    <span>HTML</span>
+                    <span>100%</span>
+                  </div>
+                  <progress max="100" value="100"></progress>
+                </li>
+
+                <li class="skills__item">
+                  <div>
+                    <span>CSS</span>
+                    <span>80%</span>
+                  </div>
+                  <progress max="100" value="80"></progress>
+                </li>
+
+                <li class="skills__item">
+                  <div>
+                    <span>JS</span>
+                    <span>60%</span>
+                  </div>
+                  <progress max="100" value="60"></progress>
+                </li>
+
+                <li class="skills__item">
+                  <div>
+                    <span>TS</span>
+                    <span>40%</span>
+                  </div>
+                  <progress max="100" value="40"></progress>
+                </li>
+
+                <li class="skills__item">
+                  <div>
+                    <span>REACT</span>
+                    <span>30%</span>
+                  </div>
+                  <progress max="100" value="30"></progress>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="aside__languages">
+            <div class="languages">
+              <h4 class="languages__heading h4">Languages</h4>
+              <ul class="languages__list">
+                <li class="languages__item">
+                  <span>Russian:</span>
+                  <span>Native</span>
+                </li>
+                <li class="languages__item">
+                  <span>English:</span>
+                  <span>A2</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="aside__extra">
+            <div class="extra">
+              <h4 class="extra__heading h4">Extra skills</h4>
+              <ul class="extra__list">
+                <li class="extra__item">
+                  <span class="material-icons"> verified </span>
+                  <span>SASS</span>
+                </li>
+                <li class="extra__item">
+                  <span class="material-icons"> verified </span>
+                  <span>Gulp</span>
+                </li>
+
+                <li class="extra__item">
+                  <span class="material-icons"> verified </span>
+                  <span>Git</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="main__content content">
+        <div class="content__hero" id="hero">
+          <div class="hero">
+            <div class="hero__wrapper bgwhite">
+              <div class="hero__text">
+                <h1 class="hero__heading">
+                  I’m Vladislav Tokarskii
+                  <span class="highlighted">Front-end Developer</span>
+                </h1>
+                <p class="hero__about">
+                  First of all, I want to become a professional frontend
+                  developer and build a career in a big company.
+                </p>
+                <p class="hero__about">
+                  I make it my goal to create a software with the user in mind,
+                  creating applications with useable and intuitive user
+                  interface experience.
+                </p>
+                <button class="button button--primary" type="button">
+                  Contact
+                </button>
+              </div>
+
+              <div class="hero__img"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__education" id="education">
+          <div class="education">
+            <h3 class="education__heading h3">Education</h3>
+
+            <div class="education__wrapper bgwhite">
+              <ul class="education__list">
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    RS Shool
+                  </p>
+                  <p>JS / Front-end</p>
+                </li>
+
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    Udemy
+                  </p>
+                  <p>Fundamental JavaScript. With practice and projects</p>
+                </li>
+
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    Udemy
+                  </p>
+                  <p>The Complete JavaScript + React Course</p>
+                </li>
+
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    Udemy
+                  </p>
+                  <p>Redux for Managing the State of React Apps</p>
+                </li>
+
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    learn.javascript.ru
+                  </p>
+                  <p>Modern JavaScript Tutorial</p>
+                </li>
+
+                <li class="education__item">
+                  <p>
+                    <span class="material-icons"> school </span>
+                    youtube.com
+                  </p>
+                  <p>Harvard CS50</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__code-example" id="code-example">
+          <div class="code-example">
+            <h3 class="code-example__heading h3">Code Example</h3>
+            <div class="code-example__wrapper bgprimary">
+              <div class="code-example__code">
+                <code>
+                  <pre>
+<div>
+  const numberOfPairs = (gloves) => {
+    let result = 0;
+    const countedGloves = gloves.reduce((obj, glove) => {
+      if (!obj[glove]) {
+        obj[glove] = 0;
+      }
+
+      obj[glove]++;
+      return obj;
+    }, {});
+
+    for (let glove in countedGloves) {
+      result += Math.floor(countedGloves[glove] / 2);
+    }
+
+    return result;
+  };
+</div>
+                  </pre>
+                </code>
+              </div>
+
+              <h4 class="code-example__sub-heading h4">
+                Code wars - Pair of gloves
+              </h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__projects" id="projects">
+          <div class="projects">
+            <h3 class="projects__heading h3">Projects</h3>
+
+            <div class="projects__wrapper bgwhite">
+              <ul class="projects__list">
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/01%20-%20JavaScript%20Drum%20Kit/"
+                      ><img src="img/projects/1.jpg" alt="Drum Kit"
+                    /></a>
+                    <h4 class="h4">Drum Kit</h4>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/"
+                      ><img src="img/projects/2.jpg" alt="Clocks"
+                    /></a>
+                    <h4 class="h4">Clocks</h4>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/03%20-%20CSS%20Variables/"
+                      ><img src="img/projects/3.jpg" alt="CSS Variables"
+                    /></a>
+                    <h4 class="h4">CSS Variables</h4>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/04%20-%20Array%20Cardio%20Day%201/"
+                      ><img src="img/projects/4.jpg" alt="Array Cardio Day"
+                    /></a>
+                    <h4 class="h4">Array Cardio Day</h4>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/05%20-%20Flex%20Panel%20Gallery/"
+                      ><img src="img/projects/5.jpg" alt="Flex Panel Gallery"
+                    /></a>
+                    <h4 class="h4">Flex Panel Gallery</h4>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://ludmono.github.io/js30/06%20-%20Type%20Ahead/"
+                      ><img src="img/projects/6.jpg" alt="Type Ahead"
+                    /></a>
+                    <h4 class="h4">Type Ahead</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="main__navigation">
+        <nav class="navigation" id="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#hero">
+                <span class="material-icons"> home </span>
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#education">
+                <span class="material-icons"> school </span>
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#code-example">
+                <span class="material-icons"> code </span>
+              </a>
+            </li>
+            <li class="navigation__item">
+              <a href="#projects">
+                <span class="material-icons"> work </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
