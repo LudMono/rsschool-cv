@@ -1,0 +1,19 @@
+.aside {
+  width: 300px;
+  padding: 50px 40px;
+  background: var(--white);
+}
+
+.aside > *::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 20px 0;
+  background: #f0f0f6;
+  content: "";
+}
+
+
+.aside > *:last-child::after {
+  content: none;
+}

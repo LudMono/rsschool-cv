@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 50px;
+  background: var(--white);
+}
+
+.footer-links__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-links__item {
+  width: 50px;
+}

@@ -1,0 +1,15 @@
+.button {
+  display: inline-block;
+  font: inherit;
+  text-align: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button--primary {
+  padding: 16px 32px;
+  font-weight: 500;
+  background: var(--primary-color);
+  border-radius: 5px;
+}

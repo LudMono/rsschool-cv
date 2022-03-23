@@ -1,0 +1,40 @@
+.projects {
+}
+
+.projects__heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects__wrapper {
+  padding: 20px;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.projects__item {
+  width: 250px;
+}
+
+.projects__item img {
+  height: 250px;
+  padding: 5px;
+  background: var(--primary-color);
+  border-radius: 2px;
+}
+
+.projects__item h4 {
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .projects__list {
+    justify-content: center;
+  }
+}

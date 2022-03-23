@@ -1,0 +1,17 @@
+.content{}
+
+.content__hero {
+  margin-bottom: 50px;
+}
+
+.content__education {
+  margin-bottom: 50px;
+}
+
+.content__code-example {
+  margin-bottom: 50px;
+}
+
+.content__projects {
+  margin-bottom: 50px;
+}

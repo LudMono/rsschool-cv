@@ -1,0 +1,22 @@
+
+.code-example{}
+.code-example__heading {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.code-example__wrapper {
+  padding: 10px;
+}
+
+.code-example__code {
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  background-color: var(--background);
+  border-radius: 5px;
+}
+
+.code-example__sub-heading {
+  text-align: center;
+}

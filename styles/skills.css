@@ -1,0 +1,31 @@
+.skills__heading {
+  margin-bottom: 25px;
+}
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__item div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.skills__item progress {
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .skills__item progress {
+    width: 40%;
+  }
+}

@@ -19,16 +19,18 @@
     />
     <title>CV</title>
   </head>
-  <body>
+  <body id="body">
+
     <header class="header container" id="header">
-      <button class="button" id="toggler">
+      <!-- Это не пустой блок! Здесь появляеться навигация для мобильных устройств. -->
+      <button class="header__toggler button" id="toggler">
         <span class="material-icons"> help </span>
       </button>
       <div class="header__drawer" id="drawer"></div>
     </header>
 
     <main class="main container">
-      <aside class="main__aside">
+      <aside class="main__aside" id="asideNest">
         <div class="aside" id="aside">
           <div class="aside__profile">
             <div class="profile">
@@ -372,11 +374,11 @@
         </div>
       </section>
 
-      <div class="main__navigation">
+      <div class="main__navigation" id="navigationNest">
         <nav class="navigation" id="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="#hero">
+              <a href="#body">
                 <span class="material-icons"> home </span>
               </a>
             </li>

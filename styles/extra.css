@@ -1,0 +1,17 @@
+.extra {
+}
+.extra__heading {
+  margin-bottom: 25px;
+}
+
+.extra__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.extra__item {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+}

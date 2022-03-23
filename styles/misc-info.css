@@ -1,0 +1,20 @@
+
+.misc-info{}
+.misc-info__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.misc-info__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.misc-info__item span:first-child {
+  padding: 5px;
+  background: var(--primary-color);
+}
