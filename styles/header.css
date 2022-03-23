@@ -14,6 +14,24 @@
   display: none;
 }
 
+.header__toggler span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__toggler span:last-of-type {
+  display: none;
+}
+
+.header__toggler--active span:first-of-type {
+  display: none;
+}
+
+.header__toggler--active span:last-of-type {
+  display: flex;
+}
+
 .header__drawer {
   position: fixed;
   top: 40px;
@@ -29,7 +47,6 @@
 .header__drawer--active {
   left: 0;
 }
-
 
 @media (max-width: 960px) {
   .header {
